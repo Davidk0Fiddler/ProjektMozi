@@ -1,0 +1,111 @@
+body{
+    display: flex;
+}
+
+.left-box {
+    width: 70%;
+    background-color: rgb(130, 210, 236);
+    height: 80vh;
+}
+
+.projectionScreen{
+    width: 100%;
+    text-align: center;
+    height: 20vh;
+}
+
+.screen {
+    background-color: rgb(150, 150, 150);
+    width: 60%;
+    margin: auto;
+    color: white;
+    height: 5vh;
+    font-size: 30px;
+}
+
+.main-seats {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.left-seats {
+    width: 22.5% ;   
+    background-color: rgb(150, 150, 150);
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middle-seats {
+    width: 45% ;   
+    background-color: rgb(150, 150, 150);
+    height: 35vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.right-seats {
+    width: 22.5% ;   
+    background-color: rgb(150, 150, 150);
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+
+.middle-seats .seat{
+    width: 55px;
+    height: 55px;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+
+.vip-seats {
+    width: 50%;    
+    background-color: rgb(150, 150, 150);
+    height: 7vh;
+    margin: auto;
+    margin-top: 6vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.seat {
+    width: 17.5%;
+    height: 17.5%;
+    background-color: green;
+    font-size: 45px;
+    text-align: center;
+}
+
+.vip-seats .seat{
+    width: 55px;
+    height: 55px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.right-seats .seat{
+    font-size: 35px;
+    text-align: center;
+}
+
+.seat:hover{
+    cursor: pointer;
+}
+
+.foglalt{
+    background-color: rgb(255,0,0);
+}
+
+.foglalt:hover {
+    cursor: not-allowed;
+}

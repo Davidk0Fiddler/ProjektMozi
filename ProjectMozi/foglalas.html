@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="foglalas.css">
+    <title id="title">Foglalás</title>
+</head>
+<body>
+    <div class="left-box">
+        <div class="projectionScreen"><br><div class="screen"><p style="padding-top: 0.7vh;">Filmvászon</p></div></div>
+        
+        <div class="main-seats">
+            <div class="left-seats" id="left-seats"> </div>
+            <div class="middle-seats" id="middle-seats"></div>
+            <div class="right-seats" id="right-seats"></div>
+        </div>
+        <div class="vip-seats" id="vip-seats"></div>
+    </div>
+    <div class="right-box">
+        <div class="foglalas" id="foglalas">
+            <div class="basicinformations">
+                <div class="szektartozek" id="szektartozek"></div>
+                <div class="szekar" id="szekar"></div>
+            </div>
+            <button id="foglalasbtn" onclick="foglalas(choosedseat)">Foglalás</button>
+            <button id="foglalastorlesbtn" onclick="foglalastorles(choosedseatű)">Foglalás Törlése</button>
+            </div>
+    </div>
+    <script src="foglalas.js"></script>
+</body>
+</html>
