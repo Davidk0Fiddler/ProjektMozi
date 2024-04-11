@@ -64,3 +64,44 @@ img {
     text-align: center;
 }
 
+#searchinput {
+    margin-top: 5vh;
+    height: 2vh;
+    margin-left: 1vw;
+}
+
+#searchinputlabel{
+    margin-left: 70vw;
+    margin-top: 5vh;
+}
+
+.filmcontainer {
+    width: 100%;
+    padding: 0;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.filmcontainer .film {
+    margin-top: 0;
+    width: 20%;
+    height: 50vh;
+}
+
+.film img {
+    width: 70%;
+    height: 80%;
+    border-radius: 10px;
+    margin-left: 15%;
+}
+
+.film p {
+    margin-top: 0;
+    text-align: center;
+}
+
+.maincontainer {
+    overflow-y: scroll;
+}
